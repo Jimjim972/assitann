@@ -37,14 +37,14 @@ export default function Footer({ showCommitments = true }: FooterProps) {
       )}
       <footer className="footer" style={{ background: "var(--bg-dark)", padding: "64px 48px" }}>
         <div className="footer-inner footer-top" style={{ maxWidth: 1160, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 32, paddingBottom: 40, marginBottom: 40, borderBottom: "1px solid var(--border-dark)" }}>
-          <Image src="/logo-assistann-cropped.png" alt="Assist'Ann" width={1018} height={1122} style={{ height: 60, width: "auto", filter: "brightness(1.1)" }} />
+          <Image className="footer-logo" src="/logo-assistann-clean.svg" alt="Assist'Ann" width={500} height={500} style={{ height: 72, width: "auto" }} />
           <nav className="footer-nav" aria-label="Navigation de pied de page" style={{ display: "flex", gap: 40 }}>
             {["Services","À propos","Processus","Devis"].map(l => (
-              <button type="button" key={l} onClick={() => go(l)} style={{ border: 0, background: "transparent", padding: 0, fontFamily: "var(--font-display)", fontSize: 9, letterSpacing: ".18em", textTransform: "uppercase", color: "var(--muted-dark)", cursor: "pointer" }}>{l}</button>
+              <button className="footer-nav-link" type="button" key={l} onClick={() => go(l)} style={{ border: 0, background: "transparent", padding: 0, fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".18em", textTransform: "uppercase", cursor: "pointer" }}>{l}</button>
             ))}
           </nav>
           <div className="footer-contact" style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 10, textAlign: "right" }}>
-            <span style={{ fontFamily: "var(--font-display)", fontSize: 9, letterSpacing: ".14em", textTransform: "uppercase", color: "var(--muted-dark)" }}>Une question ?</span>
+            <span style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".14em", textTransform: "uppercase", color: "var(--text-dark)" }}>Une question ?</span>
             <a href="mailto:contact@assistann.fr" style={{ fontFamily: "var(--font-body)", fontWeight: 300, fontSize: 14, color: "var(--text-dark)" }}>contact@assistann.fr</a>
           </div>
         </div>

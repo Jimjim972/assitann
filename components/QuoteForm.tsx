@@ -61,7 +61,7 @@ export default function QuoteForm() {
 
         {sent ? (
           <div className="success-panel" role="status" aria-live="polite" style={{ background: "#fff", border: "1px solid var(--border)", padding: "80px 48px", textAlign: "center" }}>
-            <Image src="/logo-assistann-cropped.png" alt="" width={1018} height={1122} style={{ height: 80, width: "auto", marginBottom: 32, opacity: .8 }} />
+            <Image src="/logo-assistann-clean.svg" alt="" width={500} height={500} style={{ height: 96, width: "auto", marginBottom: 32 }} />
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 400, fontSize: 28, color: "var(--text)", marginBottom: 20 }}>Message envoyé !</h3>
             <p style={{ fontFamily: "var(--font-body)", fontWeight: 300, color: "var(--muted)", fontSize: 16, lineHeight: 1.8 }}>
               Merci pour votre confiance. Je vous contacte dans les 24 heures pour discuter de votre projet.

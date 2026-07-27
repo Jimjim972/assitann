@@ -46,7 +46,7 @@ export default function Nav() {
     }}>
       <div className="nav-inner" style={{ maxWidth: 1160, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 76 }}>
         <button type="button" onClick={goTop} aria-label="Revenir à l’accueil" style={{ border: 0, background: "transparent", cursor: "pointer", padding: 0 }}>
-          <Image className="nav-logo" src="/logo-assistann-cropped.png" alt="" width={1018} height={1122} style={{ height: 52, width: "auto", objectFit: "contain" }} priority />
+          <Image className="nav-logo" src="/logo-assistann-clean.svg" alt="" width={500} height={500} style={{ height: 62, width: "auto", objectFit: "contain" }} priority />
         </button>
         <div className="nav-links" style={{ display: "flex", gap: 40, alignItems: "center" }}>
           {[["services","Services"],["apropos","À propos"],["processus","Processus"]].map(([id, label]) => (

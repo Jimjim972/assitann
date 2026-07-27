@@ -25,7 +25,7 @@ export default function Hero() {
       }} />
 
       <div className="hero-content" style={{ position: "relative", zIndex: 1, maxWidth: 780 }}>
-        <Image className="hero-logo" src="/logo-assistann-cropped.png" alt="Assist'Ann" width={1018} height={1122} style={{ height: 120, width: "auto", marginBottom: 48, opacity: .95 }} priority />
+        <Image className="hero-logo" src="/logo-assistann-clean.svg" alt="Assist'Ann" width={500} height={500} style={{ height: 144, width: "auto", marginBottom: 48 }} priority />
 
         <h1 className="hero-title" style={{ fontFamily: "var(--font-display)", fontWeight: 400, fontSize: "clamp(40px, 5.5vw, 72px)", lineHeight: 1.15, color: "var(--text)", marginBottom: 40, letterSpacing: "-.01em" }}>
           <span className="hero-title-line">Votre assistante digitale</span>
