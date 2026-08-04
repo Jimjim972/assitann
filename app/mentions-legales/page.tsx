@@ -18,7 +18,7 @@ export default function LegalNoticePage() {
             <Link className={styles.backLink} href="/">← Retour à l’accueil</Link>
             <h1>Mentions légales</h1>
             <p>
-              Informations relatives à l’édition et à l’utilisation du site assistann.fr.
+              Informations relatives à l’édition et à l’utilisation du site assistann.com.
             </p>
             <span className={styles.updated}>Dernière mise à jour : 22 juillet 2026</span>
           </div>
@@ -30,7 +30,7 @@ export default function LegalNoticePage() {
               <section>
                 <h2><span>1.</span> Éditeur du site</h2>
                 <p>
-                  Le site assistann.fr est édité par Anne-Emmanuelle Jean-Louis, entrepreneur
+                  Le site assistann.com est édité par Anne-Emmanuelle Jean-Louis, entrepreneur
                   individuel exerçant sous le régime de la micro-entreprise.
                 </p>
                 <dl className={styles.details}>

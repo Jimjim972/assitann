@@ -69,7 +69,7 @@ export async function POST(req: Request) {
   }
 
   const emailText = [
-    "Nouvelle demande de devis depuis assistann.fr",
+    "Nouvelle demande de devis depuis assistann.com",
     "",
     `Nom : ${data.nom}`,
     `E-mail : ${data.email}`,

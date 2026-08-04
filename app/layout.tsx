@@ -18,7 +18,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://assistann.fr"),
+  metadataBase: new URL("https://assistann.com"),
   title: "Assist'Ann — Assistante Administrative Déléguée",
   description: "De l'administratif à la facturation, en passant par la gestion des ressources humaines, je serai votre appui.",
   applicationName: "Assist'Ann",
