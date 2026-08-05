@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
               Informations relatives à la collecte, à l’utilisation et à la protection de vos
               données personnelles.
             </p>
-            <span className={styles.updated}>Dernière mise à jour : 22 juillet 2026</span>
+            <span className={styles.updated}>Dernière mise à jour : 5 août 2026</span>
           </div>
         </section>
 
@@ -148,11 +148,14 @@ export default function PrivacyPolicyPage() {
               <section>
                 <h2><span>10.</span> Cookies</h2>
                 <p>
-                  Le site utilise uniquement les cookies ou dispositifs techniques strictement
-                  nécessaires à son fonctionnement. Aucun cookie publicitaire ni outil de mesure
-                  d’audience soumis au consentement n’est actuellement activé. Si de tels services
-                  sont ajoutés, un mécanisme de consentement conforme sera mis en place avant leur
-                  activation.
+                  Le site utilise Vercel Web Analytics afin de produire des statistiques de
+                  fréquentation agrégées, notamment sur les pages consultées, la provenance du
+                  trafic et les catégories d’appareils ou de navigateurs utilisés. Cette solution
+                  fonctionne sans cookie et ne permet pas de suivre les visiteurs entre différents
+                  sites. Les données sont utilisées uniquement pour mesurer l’audience et améliorer
+                  le site. Aucun cookie publicitaire n’est utilisé. Si un service soumis au
+                  consentement est ajouté ultérieurement, un mécanisme de consentement conforme sera
+                  mis en place avant son activation.
                 </p>
               </section>
 
