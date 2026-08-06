@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://assistann.com/sitemap.xml",
-    host: "https://assistann.com",
+    sitemap: "https://www.assistann.com/sitemap.xml",
+    host: "https://www.assistann.com",
   };
 }
